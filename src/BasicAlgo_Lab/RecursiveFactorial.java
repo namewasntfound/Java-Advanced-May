@@ -15,6 +15,6 @@ public class RecursiveFactorial {
         if (number == 1) {
             return 1;
         }
-        return (fact(number - 1) * number);
+        return fact(number - 1) * number;
     }
 }
